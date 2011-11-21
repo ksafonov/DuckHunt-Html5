@@ -37,7 +37,7 @@ function Controller(visibleAreaProvider, pg) {
         }, ADVANCE_DELAY);
     }
 
-    this.startGame = function() {
+    this.startGame = function () {
         var model = new PlayModel(visibleAreaProvider);
 
         model.bind("duckCreated", function(duck) {

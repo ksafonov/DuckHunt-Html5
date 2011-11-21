@@ -14,7 +14,7 @@ function PlayModel(visibleAreaProvider) {
 
     this.createNewDuck = function() {
         var fliesToTheRight = Math.random() >= 0.5;
-        var duck = new Duck(fliesToTheRight);
+        var duck = new LazyDuck(fliesToTheRight);
         ducks.push(duck);
 
         var duckImageSize = duck.getImageSize();

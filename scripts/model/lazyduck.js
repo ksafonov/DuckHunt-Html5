@@ -1,4 +1,4 @@
-function Duck(toTheRight) {
+function LazyDuck(toTheRight) {
 
     var FLY_SPEED = 10; // pixels per frame
 
@@ -68,3 +68,5 @@ function Duck(toTheRight) {
     }
 
 }
+
+LazyDuck.prototype = BaseDuck;
